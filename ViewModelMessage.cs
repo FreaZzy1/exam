@@ -8,7 +8,7 @@ namespace ClassLibrary1
 {
     public class ViewModelMessage
     {
-        List<string>Message = new List<string>();
+        List<string> Message {  get; set; }
         public ViewModelMessage(List<string> message)
         {
             this.Message = message;
